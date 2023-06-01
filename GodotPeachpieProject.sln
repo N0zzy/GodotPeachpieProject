@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodotApplication", "GodotApplication\GodotApplication.csproj", "{3ACAC1FF-301F-41AA-95C2-2B6A4FCB37F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N0zzy", "GodotLibrary\N0zzy\N0zzy.csproj", "{AF833DA3-4DAA-4958-BC14-DE7E35CB4CE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodotSdk", "GodotPhp\GodotSdk\GodotSdk.csproj", "{1CE26EBB-FEF6-4D09-8442-4D74B151F678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpieSdk", "GodotPhp\SharpieSdk\SharpieSdk.csproj", "{D17F82A1-7882-4BB9-8ADC-215952E22F07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ACAC1FF-301F-41AA-95C2-2B6A4FCB37F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACAC1FF-301F-41AA-95C2-2B6A4FCB37F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACAC1FF-301F-41AA-95C2-2B6A4FCB37F5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACAC1FF-301F-41AA-95C2-2B6A4FCB37F5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{AF833DA3-4DAA-4958-BC14-DE7E35CB4CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF833DA3-4DAA-4958-BC14-DE7E35CB4CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF833DA3-4DAA-4958-BC14-DE7E35CB4CE2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF833DA3-4DAA-4958-BC14-DE7E35CB4CE2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1CE26EBB-FEF6-4D09-8442-4D74B151F678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE26EBB-FEF6-4D09-8442-4D74B151F678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE26EBB-FEF6-4D09-8442-4D74B151F678}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE26EBB-FEF6-4D09-8442-4D74B151F678}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D17F82A1-7882-4BB9-8ADC-215952E22F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17F82A1-7882-4BB9-8ADC-215952E22F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17F82A1-7882-4BB9-8ADC-215952E22F07}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17F82A1-7882-4BB9-8ADC-215952E22F07}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal

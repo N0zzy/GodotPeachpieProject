@@ -1,0 +1,25 @@
+﻿<Project Sdk="Peachpie.NET.Sdk/1.1.9">
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Configurations>Debug;ExportDebug;ExportRelease</Configurations>
+        <Platforms>AnyCPU</Platforms>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="GodotSharp" Version="4.0.3" />
+        <PackageReference Include="Godot.SourceGenerators" Version="4.0.3" />
+    </ItemGroup>
+
+    
+    <!-- If you will need disable SDK, add comment  -->
+    <!-- Need to run "Build Solution" and "Player" for to reset cache  -->
+    <ItemGroup>
+        <ProjectReference Include="..\..\GodotPhp\GodotSdk\GodotSdk.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <Compile Include="**/*.php" />
+    </ItemGroup>
+    
+    
+</Project>
