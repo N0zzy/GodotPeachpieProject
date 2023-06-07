@@ -10,22 +10,26 @@ use Godot\Button;
 use Godot\Node2D;
 use System\Exception;
 use System\Boolean;
-/**
- * @public
- * @partial
- * @virtual
- * @generic UxWindow<Window>
- * @generic-extends UxWindowAbstract<Window>
- */
+
+trait GetButtonPathArray {
+    protected function getButton(array $paths) {
+        return False;
+    }
+}
+
+trait GetButtonPathString {
+    protected function getButton(string $path) {
+        return null;
+    }
+}
+
 class UxWindow extends UxWindowAbstract {
-    private $a = 1;
-    /**
-     * @appstatic
-     */
-    protected static int|float $b = 2;    
+
+    use GetButtonPathArray;
+    use GetButtonPathString;
              
     public function _Ready() : void {	
-        $this->injectSdk();
+        /**$this->injectSdk(); //only built-in**/
     }    
     /**
      * @arg int|float=>string $delta
@@ -35,16 +39,7 @@ class UxWindow extends UxWindowAbstract {
                
     }
     
-    protected function getButton(string $path) {
-        return null;
-    }
-    
-    protected function getButton(array $paths) {
-        return False;
-    }
-    
-    //need to remove in production
-    protected function injectSdk(){
-        try { new \Php\Sdk\Sdk(); } catch (Exception $e) {}        
-    }
+    /** only built-in
+    protected function injectSdk(){try { new \Php\Sdk\Sdk(); } catch (Exception $e) {}}
+    */
 }
