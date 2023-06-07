@@ -13,9 +13,9 @@
     
     <!-- If you will need disable SDK, add comment  -->
     <!-- Need to run "Build Solution" and "Player" for to reset cache  -->
-    <ItemGroup>
-        <ProjectReference Include="..\..\GodotPhp\GodotSdk\GodotSdk.csproj" />
-    </ItemGroup>
+<!--    <ItemGroup>-->
+<!--        <ProjectReference Include="..\..\GodotPhp\GodotSdk\GodotSdk.csproj" />-->
+<!--    </ItemGroup>-->
     
     <ItemGroup>
       <Compile Include="**/*.php" />

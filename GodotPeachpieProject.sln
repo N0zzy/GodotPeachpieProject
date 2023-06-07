@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N0zzy", "GodotLibrary\N0zzy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodotSdk", "GodotPhp\GodotSdk\GodotSdk.csproj", "{1CE26EBB-FEF6-4D09-8442-4D74B151F678}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpieSdk", "GodotPhp\SharpieSdk\SharpieSdk.csproj", "{D17F82A1-7882-4BB9-8ADC-215952E22F07}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PchpSdkLibrary", "GodotPhp\PchpSdkLibrary\PchpSdkLibrary.csproj", "{D17F82A1-7882-4BB9-8ADC-215952E22F07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
