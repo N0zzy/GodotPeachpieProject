@@ -11,32 +11,21 @@ use Godot\Node2D;
 use System\Exception;
 use System\Boolean;
 
-trait GetButtonPathArray {
-    protected function getButton(array $paths) {
-        return False;
-    }
-}
-
-trait GetButtonPathString {
-    protected function getButton(string $path) {
-        return null;
-    }
-}
 
 class UxWindow extends UxWindowAbstract {
 
-    use GetButtonPathArray;
-    use GetButtonPathString;
-             
     public function _Ready() : void {	
         /**$this->injectSdk(); //only built-in**/
+        $a = $this->GetTree();
+        GD::Print(777);
     }    
-    /**
-     * @arg int|float=>string $delta
-     * @arg mixed=>string $delta
-     */
+
     public function _Process($delta) : void  {
-               
+
+    }
+
+    protected function getButton(){
+
     }
     
     /** only built-in

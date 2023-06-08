@@ -1,0 +1,93 @@
+#!/usr/bin/php
+<?php
+/////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+/// configuration
+/////////////////////////////////////////////////////////////////////////////////
+$project = "GodotApplication";
+$appPath = "/GodotPeachpieProject/{$project}";
+$appName = "Godot_v4.0.3-stable_mono_win64.exe";
+/////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+$pid = (int)@file_get_contents("pid");
+if(!empty($pid)) {
+    if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
+        // Windows
+        @exec("taskkill /F /PID $pid", $output, $returnCode);
+        if ($returnCode === 0) {
+            echo "[DEBUG] Process with PID $pid has been terminated.\n";
+        } else {
+            echo "[DEBUG] Failed to terminate process with PID $pid.\n";
+        }
+    } else {
+        // Linux
+        if (posix_kill($pid, SIGTERM)) {
+            echo "[DEBUG] Process with PID $pid has been terminated.\n";
+        } else {
+            echo "[DEBUG] Failed to terminate process with PID $pid.\n";
+        }
+    }
+}
+if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
+    // Windows
+    @exec("taskkill /F /IM $appName", $output, $returnCode);
+    if ($returnCode === 0) {
+        echo "[DEBUG] Process '$appName' has been terminated.\n";
+    } else {
+        echo "[DEBUG] Failed to terminate process '$appName'.\n";
+    }
+}
+else {
+    // Linux
+    @exec("pkill $appName", $output, $returnCode);
+    if ($returnCode === 0) {
+        echo "[DEBUG] Process '$appName' has been terminated.\n";
+    } else {
+        echo "[DEBUG] Failed to terminate process '$appName'.\n";
+    }
+}
+$appRoot = str_replace("\\", "/", dirname(__DIR__ , 2));
+$COMMAND = [
+    //["dotnet clean ../{$project}/{$project}.csproj", false],
+    ["dotnet restore ../{$project}/{$project}.csproj", false],
+    ["dotnet build --no-restore ../{$project}/{$project}.csproj", false],
+    ["start /wait /b {$appRoot}/{$appName} --path {$appRoot}{$appPath}", true]
+];
+foreach ($COMMAND as $item) {
+    $t = microtime(1);
+    echo "[DEBUG] " . $item[0] . "\n";
+    if($item[1]){
+        $descriptorspec = array(
+            0 => array("pipe", "r"),  // stdin
+            1 => array("pipe", "w"),  // stdout
+            2 => array("pipe", "w")   // stderr
+        );
+        $process = @proc_open($item[0], $descriptorspec, $pipes);
+        if (is_resource($process)) {
+            $status = @proc_get_status($process);
+            $pid = $status['pid'];
+            echo "[DEBUG] pid process {$pid}\n";
+            file_put_contents("pid", $pid);
+            while(!feof($pipes[1]))
+            {
+                echo fgets($pipes[1], 1024);
+            }
+        }
+        proc_close($process);
+    }
+    else {
+        $fp=@popen( $item[0],"r");
+        while (!feof($fp)) {
+            echo fgets($fp, 1024);
+        }
+        pclose($fp);
+    }
+
+    echo "[DEBUG] time: " . round(microtime(1) - $t, 2) . " sec.\n";
+}
+echo "\n[DEBUG] complete ...";
+
