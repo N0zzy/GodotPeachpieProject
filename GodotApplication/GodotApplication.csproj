@@ -8,6 +8,10 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   
+<!--  <ItemGroup>-->
+<!--    <PackageReference Include="GLPchp" Version="0.1.0" />-->
+<!--  </ItemGroup>-->
+  
   <ItemGroup>
     <ProjectReference Include="..\GodotLibrary\N0zzy\N0zzy.csproj" />
   </ItemGroup>

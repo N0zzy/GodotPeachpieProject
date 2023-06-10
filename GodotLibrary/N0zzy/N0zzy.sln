@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdk", "..\..\GodotPhp\Sdk\Sdk.csproj", "{ADACD312-8547-4927-8F51-6A1A271F2620}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLPchp", "..\..\GLPchp\GLPchp.csproj", "{C20C87B4-64BA-4E5E-9766-44CBEE6B2280}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ADACD312-8547-4927-8F51-6A1A271F2620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADACD312-8547-4927-8F51-6A1A271F2620}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADACD312-8547-4927-8F51-6A1A271F2620}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADACD312-8547-4927-8F51-6A1A271F2620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20C87B4-64BA-4E5E-9766-44CBEE6B2280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20C87B4-64BA-4E5E-9766-44CBEE6B2280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20C87B4-64BA-4E5E-9766-44CBEE6B2280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20C87B4-64BA-4E5E-9766-44CBEE6B2280}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

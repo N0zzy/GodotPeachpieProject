@@ -52,7 +52,7 @@ else {
 }
 $appRoot = str_replace("\\", "/", dirname(__DIR__ , 2));
 $COMMAND = [
-    //["dotnet clean ../{$project}/{$project}.csproj", false],
+    ["dotnet clean ../{$project}/{$project}.csproj", false],
     ["dotnet restore ../{$project}/{$project}.csproj", false],
     ["dotnet build --no-restore ../{$project}/{$project}.csproj", false],
     ["start /wait /b {$appRoot}/{$appName} --path {$appRoot}{$appPath}", true]

@@ -12,7 +12,7 @@ config_version=5
 
 config/name="GodotApplication"
 run/main_scene="res://window.tscn"
-config/features=PackedStringArray("4.0", "Forward Plus")
+config/features=PackedStringArray("4.0", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]
