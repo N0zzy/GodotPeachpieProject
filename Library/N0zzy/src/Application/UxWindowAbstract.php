@@ -7,7 +7,6 @@ use Godot\GD;
 
 abstract class UxWindowAbstract extends Node2D {
     public function _Ready() : void {}        
-    public function _Process($delta) : void {}
     
     public function OnButtonPressed($a, $b, $c): void
     {
