@@ -1,7 +1,0 @@
-﻿{
-  "autoload": {
-    "psr-4": {
-      "N0zzy\\Application\\" : "src/Application/"
-    }
-  }
-}
