@@ -5,6 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d435d035-1ef3-4c48-a7e1-55cd6d0abe8b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.GDApplication/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.GDProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.GDProject/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.GDProject/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.GDProject/.idea/markdown-navigator-enh.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.GDProject/.idea/markdown-navigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.GDProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/Application.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/Application.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/Application.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/N0zzy/Application/Button2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/N0zzy/Application/Window.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/export_presets.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/icon.svg.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/project.godot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/window.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GDApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GDApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GDProject.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/Library.code-workspace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/N0zzy/N0zzy.code-workspace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/N0zzy/N0zzy.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/N0zzy/N0zzy.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/N0zzy/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/N0zzy/src/Application/UxButton2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/N0zzy/src/Application/UxButton2Abstract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/N0zzy/src/Application/UxWindow.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/N0zzy/src/Application/UxWindowAbstract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Peachpie/GodotCompile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Peachpie/Peachpie.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Peachpie/SharpieSdk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Utils/GodotCompile/compile.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Utils/GodotCompile/compile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Utils/SharpieSdk/.sdkignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Utils/SharpieSdk/.sdkignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Utils/SharpieSdk/.sdkpath" beforeDir="false" afterPath="$PROJECT_DIR$/../Utils/SharpieSdk/.sdkpath" afterDir="false" />
