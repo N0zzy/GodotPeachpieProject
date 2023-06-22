@@ -1,0 +1,18 @@
+<Project Sdk="Peachpie.NET.SDK/1.1.9">
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <OutputType>Library</OutputType>
+        <EnableDynamicLoading>true</EnableDynamicLoading>
+        <Configurations>Debug</Configurations>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="GodotSharp" Version="4.0.3" />
+        <PackageReference Include="GLPchp" Version="0.2.4" />
+    </ItemGroup>
+    
+    
+    <ItemGroup>
+        <Compile Include="**/*.php" />
+    </ItemGroup>
+</Project>
