@@ -1,4 +1,4 @@
-using AppLibrary;
+namespace AppLibrary;
 
 public partial class Button : UxButton2
 {

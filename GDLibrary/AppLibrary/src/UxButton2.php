@@ -15,10 +15,9 @@ class UxButton2 extends UxButton2Abstract
 {
     protected $event;
     
-    public function __Ready() : void 
+    public function _Ready() : void 
     { 
-        GD::Print("[DEBUG]" . __CLASS__);
-        
+        GD::Print("[DEBUG]" . __CLASS__);    
         $this->event = new UxEvent();
         $this->event->OnScope("pressed", $this, [null, "onPressed"]);
     }

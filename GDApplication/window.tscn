@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bbxkygn6m702q"]
 
-[ext_resource type="Script" path="res://Button.cs" id="1_0v1b8"]
+[ext_resource type="Script" path="res://AppLibrary/Button.cs" id="1_0v1b8"]
 
 [node name="Window" type="Node2D"]
 
@@ -12,9 +12,17 @@ offset_bottom = 40.0
 
 [node name="Button" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 74.0
-offset_top = 68.0
-offset_right = 270.0
-offset_bottom = 99.0
+offset_left = 72.0
+offset_top = 97.0
+offset_right = 268.0
+offset_bottom = 128.0
 text = "button"
 script = ExtResource("1_0v1b8")
+
+[node name="TextEdit" type="TextEdit" parent="Control"]
+layout_mode = 0
+offset_left = 74.0
+offset_top = 45.0
+offset_right = 268.0
+offset_bottom = 81.0
+text = "Text"
