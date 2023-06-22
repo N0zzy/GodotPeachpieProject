@@ -1,0 +1,14 @@
+<Project Sdk="Godot.NET.Sdk/4.0.3">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <Configurations>Debug</Configurations>
+    <Platforms>AnyCPU</Platforms>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Library\N0zzy\N0zzy.csproj" />
+  </ItemGroup>
+  
+</Project>
