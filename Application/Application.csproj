@@ -4,11 +4,11 @@
     <EnableDynamicLoading>true</EnableDynamicLoading>
     <Configurations>Debug</Configurations>
     <Platforms>AnyCPU</Platforms>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GodotLibrary\N0zzy\N0zzy.csproj" />
+    <ProjectReference Include="..\Library\N0zzy\N0zzy.csproj" />
   </ItemGroup>
   
 </Project>
