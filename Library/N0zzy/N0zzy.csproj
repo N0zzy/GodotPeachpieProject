@@ -8,11 +8,17 @@
     <ItemGroup>
         <PackageReference Include="GodotSharp" Version="4.0.3" />
         <PackageReference Include="Godot.SourceGenerators" Version="4.0.3" />
-<!--        <PackageReference Include="GLPchp" Version="0.2.3" />-->
+        <!--    BASIC    -->
+        <PackageReference Include="GLPchp" Version="0.2.4" />
     </ItemGroup>
     
     <ItemGroup>
       <Compile Include="**/*.php" />
     </ItemGroup>
+    
+<!--    ONLY DEV    -->
+<!--    <ItemGroup>-->
+<!--        <ProjectReference Include="..\..\Packages\GLPchp\GLPchp.csproj"/>-->
+<!--    </ItemGroup>-->
     
 </Project>
