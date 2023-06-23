@@ -17,7 +17,7 @@ class UxButton2 extends UxButton2Abstract
     
     public function _Ready() : void 
     { 
-        GD::Print("[DEBUG]" . __CLASS__);    
+        GD::Print("[DEBUG] " . __CLASS__);    
         $this->event = new UxEvent();
         $this->event->OnScope("pressed", $this, [null, "onPressed"]);
     }
@@ -27,6 +27,6 @@ class UxButton2 extends UxButton2Abstract
     }    
   
     protected function getTextEdit(): TextEdit {
-        return UElement::GetNode($this, "root.Window.Control.TextEdit", null);
+        return UElement::GetNode($this, "root.Window.Control.TextEditContainer.TextEdit", null);
     }
 }

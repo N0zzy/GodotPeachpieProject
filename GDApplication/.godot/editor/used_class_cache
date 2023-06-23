@@ -1,0 +1,6 @@
+res://icon.svg::1687442461::5ddad973d6395e772f8dfeaeed15f0a0::CompressedTexture2D
+res://window.tscn::1687515374::dd0f83fb81fb82d3964cff98ae390bda::PackedScene,Node2D,Control,Button,TextEdit,ItemList
+res://AppLibrary/Button2.cs::1687459269::98edf18b5c6c19f20052bff8b303d1d8::CSharpScript
+res://AppLibrary/Button.cs::1687459269::0a01d68a52660966f3ca246d295845f6::CSharpScript
+res://AppLibrary/TextEdit.cs::1687462783::5e476b2f4412142a13b65520dba9aca8::CSharpScript
+res://AppLibrary/Window.cs::1687459269::4d776264899805859034fa592db6d58b::CSharpScript

@@ -1,6 +1,6 @@
 namespace AppLibrary;
 
-public partial class Button : UxButton {
+public partial class TextEdit : UxTextEdit {
 
 	public override void _Ready() {  base._Ready(); }
 
