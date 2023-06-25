@@ -21,6 +21,28 @@
                             "--editor"
                      ],
                      "problemMatcher": "$msCompile"
+              },
+              {
+                     "label": "sdkbuild",
+                     "command": "dotnet",
+                     "type": "process",
+                     "args": [
+                            "build",
+                            "--project",
+                            "${workspaceFolder}/Utils/SharpieSdk/SharpieSdk.csproj"
+                     ],
+                     "problemMatcher": "$msCompile"
+              },
+              {
+                     "label": "sdkrun",
+                     "command": "dotnet",
+                     "type": "process",
+                     "args": [
+                            "run",
+                            "--project",
+                            "${workspaceFolder}/Utils/SharpieSdk/SharpieSdk.csproj"
+                     ],
+                     "problemMatcher": "$msCompile"
               }
        ]
 }

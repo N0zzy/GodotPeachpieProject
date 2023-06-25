@@ -57,6 +57,28 @@
                      "request": "attach",
                      "address": "localhost",
                      "port": 23685
+              },
+              {
+                     "name": "SDK (build)",
+                     "type": "godot-mono",
+                     "request": "launch",
+                     "mode": "executable",
+                     "preLaunchTask": "sdkbuild",
+                     "executable": "C:/Program Files/dotnet/dotnet.exe",
+                     "executableArguments": [
+                            "build"
+                     ]
+              },
+              {
+                     "name": "SDK (run)",
+                     "type": "godot-mono",
+                     "request": "launch",
+                     "mode": "executable",
+                     "preLaunchTask": "sdkrun",
+                     "executable": "C:/Program Files/dotnet/dotnet.exe",
+                     "executableArguments": [
+                            "run"
+                     ]
               }
        ]
 }
