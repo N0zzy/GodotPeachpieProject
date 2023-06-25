@@ -1,0 +1,26 @@
+{
+       "version": "2.0.0",
+       "tasks": [
+              {
+                     "label": "player",
+                     "command": "../Godot_v4.1-beta3_mono_win64_console.exe",
+                     "type": "process",
+                     "args": [
+                            "--path",
+                            "${workspaceRoot}/GDApplication",
+                     ],
+                     "problemMatcher": "$msCompile"
+              },
+              {
+                     "label": "editor",
+                     "command": "../Godot_v4.1-beta3_mono_win64_console.exe",
+                     "type": "process",
+                     "args": [
+                            "--path",
+                            "${workspaceRoot}/GDApplication",
+                            "--editor"
+                     ],
+                     "problemMatcher": "$msCompile"
+              }
+       ]
+}

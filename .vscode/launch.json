@@ -1,0 +1,62 @@
+{
+       "version": "2.0.0",
+       "configurations": [
+              {
+                     "name": "Play in Editor",
+                     "type": "godot-mono",
+                     "mode": "playInEditor",
+                     "request": "launch"
+              },
+              {
+                     "name": "Player",
+                     "type": "godot-mono",
+                     "request": "launch",
+                     "mode": "executable",
+                     "preLaunchTask": "player",
+                     "executable": "../Godot_v4.1-beta3_mono_win64_console.exe",
+                     // See which arguments are available here:
+                     // https://docs.godotengine.org/en/stable/getting_started/editor/command_line_tutorial.html
+                     "executableArguments": [
+                            "--path",
+                            "${workspaceRoot}/GDApplication"
+                     ]
+              },
+              {
+                     "name": "Editor",
+                     "type": "godot-mono",
+                     "request": "launch",
+                     "mode": "executable",
+                     "preLaunchTask": "editor",
+                     "executable": "../Godot_v4.1-beta3_mono_win64_console.exe",
+                     // See which arguments are available here:
+                     // https://docs.godotengine.org/en/stable/getting_started/editor/command_line_tutorial.html
+                     "executableArguments": [
+                            "--path",
+                            "${workspaceRoot}/GDApplication",
+                            "--editor"
+                     ]
+              },
+              {
+                     "name": "Launch (Select Scene)",
+                     "type": "godot-mono",
+                     "request": "launch",
+                     "mode": "executable",
+                     "preLaunchTask": "build",
+                     "executable": "../Godot_v4.1-beta3_mono_win64_console.exe",
+                     // See which arguments are available here:
+                     // https://docs.godotengine.org/en/stable/getting_started/editor/command_line_tutorial.html
+                     "executableArguments": [
+                            "--path",
+                            "${workspaceRoot}/GDApplication",
+                            "${command:SelectLaunchScene}"
+                     ]
+              },
+              {
+                     "name": "Attach",
+                     "type": "godot-mono",
+                     "request": "attach",
+                     "address": "localhost",
+                     "port": 23685
+              }
+       ]
+}

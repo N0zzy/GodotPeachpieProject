@@ -1,5 +1,4 @@
 .vs
-.vscode
 bin
 obj
 */bin
@@ -12,5 +11,4 @@ sdk
 */sdk
 */*/.sdk
 */*/sdk
-
 Packages
