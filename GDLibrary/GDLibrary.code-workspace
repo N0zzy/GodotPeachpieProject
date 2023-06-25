@@ -5,21 +5,6 @@
 		}
 	],
 	"settings": {
-		"csharp.format.enable": false,
-		"csharp.referencesCodeLens.enabled": false,
-		"csharp.semanticHighlighting.enabled": false,
-		"csharp.showOmnisharpLogOnError": false,
-		"csharp.suppressHiddenDiagnostics": false,
-		"csharp.testsCodeLens.enabled": false,
-		"omnisharp.autoStart": false,
-		"omnisharp.disableMSBuildDiagnosticWarning": true,
-		"omnisharp.enableEditorConfigSupport": false,
-		"omnisharp.sdkIncludePrereleases": false,
-		"omnisharp.useEditorFormattingSettings": false,
-		"omnisharp.useModernNet": false,
-		"razor.format.enable": false,
-		"codeium.detectProxy": false,
-		"codeium.enableCodeLens": false
 
 	}
 }
