@@ -43,6 +43,28 @@
                             "${workspaceFolder}/Utils/SharpieSdk/SharpieSdk.csproj"
                      ],
                      "problemMatcher": "$msCompile"
+              },
+              {
+                     "label": "compilecsbuild",
+                     "command": "dotnet",
+                     "type": "process",
+                     "args": [
+                            "build",
+                            "--project",
+                            "${workspaceFolder}/Utils/GodotCompile/GodotCompile.csproj"
+                     ],
+                     "problemMatcher": "$msCompile"
+              },
+              {
+                     "label": "compilecsrun",
+                     "command": "dotnet",
+                     "type": "process",
+                     "args": [
+                            "run",
+                            "--project",
+                            "${workspaceFolder}/Utils/GodotCompile/GodotCompile.csproj"
+                     ],
+                     "problemMatcher": "$msCompile"
               }
        ]
 }

@@ -1,14 +1,7 @@
 namespace AppLibrary;
 
-using Godot;
-using System;
+public partial class Window : UxWindow {
 
-class Window : UxWindow {
-
-	public override void _Ready() {  
-		base._Ready(); 
-		
-		Console.WriteLine("Hello World!");
-	}
+	public override void _Ready() {  base._Ready(); }
 
 }

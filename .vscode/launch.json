@@ -79,6 +79,28 @@
                      "executableArguments": [
                             "run"
                      ]
+              },
+              {
+                     "name": "CompileCS (build)",
+                     "type": "godot-mono",
+                     "request": "launch",
+                     "mode": "executable",
+                     "preLaunchTask": "compilecsbuild",
+                     "executable": "C:/Program Files/dotnet/dotnet.exe",
+                     "executableArguments": [
+                            "build"
+                     ]
+              },
+              {
+                     "name": "CompileCS (run)",
+                     "type": "godot-mono",
+                     "request": "launch",
+                     "mode": "executable",
+                     "preLaunchTask": "compilecsrun",
+                     "executable": "C:/Program Files/dotnet/dotnet.exe",
+                     "executableArguments": [
+                            "run"
+                     ]
               }
        ]
 }
