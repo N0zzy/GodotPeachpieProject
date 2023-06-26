@@ -121,7 +121,7 @@ class UxMyClass extends UxMyClassAbstract {
 
 * [git clone https://github.com/N0zzy/SharpieSdk.git](https://github.com/N0zzy/SharpieSdk) 
 
-данная утилита создать папку `.sdk` для зависимостей из `CSharp` библиотек.
+данная утилита позволяет создать папку `.sdk` и сгенерировать `php`-скрипты на основе `CSharp`-библиотек.
 `.sdk` использовать только для *``чтения``*
 
 * файл `.sdkpath` - хранит абсолютный путь до места распаковки (либо текущий диск)
