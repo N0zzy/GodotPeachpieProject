@@ -1,0 +1,12 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://dgcxhd0vcygom"]
+
+[ext_resource type="FontFile" uid="uid://cdjcjmytvkhy7" path="res://fonts/Roboto/Roboto-Light.ttf" id="1_sac0g"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yj5j2"]
+bg_color = Color(0.176471, 0.176471, 0.176471, 1)
+border_color = Color(0.627451, 0.627451, 0.627451, 1)
+
+[resource]
+default_font = ExtResource("1_sac0g")
+default_font_size = 10
+Button/styles/normal = SubResource("StyleBoxFlat_yj5j2")

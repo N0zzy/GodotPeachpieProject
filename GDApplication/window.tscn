@@ -1,8 +1,13 @@
-[gd_scene load_steps=4 format=3 uid="uid://bbxkygn6m702q"]
+[gd_scene load_steps=7 format=3 uid="uid://bbxkygn6m702q"]
 
 [ext_resource type="Script" path="res://AppLibrary/Button.cs" id="1_0v1b8"]
+[ext_resource type="Theme" uid="uid://dgcxhd0vcygom" path="res://theme.tres" id="1_o2qr7"]
 [ext_resource type="Script" path="res://AppLibrary/Button2.cs" id="2_losxj"]
 [ext_resource type="Script" path="res://AppLibrary/TextEdit.cs" id="3_4ifjx"]
+[ext_resource type="FontFile" uid="uid://mq1gt2etv5s7" path="res://fonts/Roboto/Roboto-Medium.ttf" id="3_l57x4"]
+
+[sub_resource type="Theme" id="Theme_h7pvg"]
+default_font_size = 10
 
 [node name="Window" type="Node2D"]
 
@@ -15,15 +20,16 @@ anchor_right = 0.5
 anchor_bottom = 0.5
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_o2qr7")
 
 [node name="Button" type="Button" parent="Control"]
 light_mask = 2
 visibility_layer = 2
 layout_mode = 0
 offset_left = 72.0
-offset_top = 97.0
+offset_top = 87.0
 offset_right = 258.0
-offset_bottom = 128.0
+offset_bottom = 118.0
 mouse_default_cursor_shape = 2
 keep_pressed_outside = true
 text = "button"
@@ -34,9 +40,9 @@ light_mask = 3
 visibility_layer = 3
 layout_mode = 0
 offset_left = 72.0
-offset_top = 140.0
+offset_top = 127.0
 offset_right = 258.0
-offset_bottom = 171.0
+offset_bottom = 158.0
 mouse_default_cursor_shape = 2
 text = "button2"
 script = ExtResource("2_losxj")
@@ -50,9 +56,26 @@ offset_bottom = 87.0
 
 [node name="TextEdit" type="TextEdit" parent="Control/TextEditContainer"]
 layout_mode = 1
+offset_top = 4.0
 offset_right = 186.0
-offset_bottom = 36.0
+offset_bottom = 27.0
+theme = SubResource("Theme_h7pvg")
+theme_override_colors/background_color = Color(1, 1, 1, 0.129412)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_selected_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_colors/selection_color = Color(0, 0, 0, 0)
+theme_override_colors/current_line_color = Color(0, 0, 0, 0)
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/caret_background_color = Color(0, 0, 0, 0)
+theme_override_colors/word_highlighted_color = Color(0, 0, 0, 0)
+theme_override_colors/search_result_color = Color(0, 0, 0, 0)
+theme_override_colors/search_result_border_color = Color(0, 0, 0, 0)
+theme_override_fonts/font = ExtResource("3_l57x4")
+theme_override_font_sizes/font_size = 10
 text = "Text"
+placeholder_text = "<null>"
+scroll_past_end_of_file = true
 script = ExtResource("3_4ifjx")
 
 [node name="ItemList" type="ItemList" parent="Control/TextEditContainer"]

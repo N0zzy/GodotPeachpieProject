@@ -16,6 +16,7 @@ config/features=PackedStringArray("4.1", "C#", "Forward Plus")
 run/flush_stdout_on_print=true
 run/max_fps=40
 run/low_processor_mode=true
+boot_splash/bg_color=Color(0, 0, 0, 1)
 boot_splash/show_image=false
 config/icon="res://icon.svg"
 
@@ -23,6 +24,10 @@ config/icon="res://icon.svg"
 
 gdscript/warnings/enable=false
 gdscript/warnings/exclude_addons=false
+
+[display]
+
+window/vsync/vsync_mode=0
 
 [dotnet]
 
@@ -41,6 +46,16 @@ pointing/emulate_touch_from_mouse=true
 [navigation]
 
 3d/use_edge_connections=false
+
+[physics]
+
+2d/run_on_separate_thread=true
+
+[rendering]
+
+textures/default_filters/anisotropic_filtering_level=1
+environment/ssao/half_size=false
+environment/defaults/default_clear_color=Color(0, 0, 0, 1)
 
 [xr]
 

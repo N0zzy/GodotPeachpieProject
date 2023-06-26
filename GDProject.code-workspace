@@ -5,6 +5,19 @@
               }
        ],
        "settings": {
+              "omnisharp.projectFilesExcludePattern": "**/node_modules/**,**/.git/**,**/bower_components/**,**/GDLibrari/**",
+              "omnisharp.sdkPath": "/Program Files/dotnet/sdk/7.0.304",
+              "razor.disabled": false,
+              "vssolution.netcoreIgnore": [
+                     "bin",
+                     "node_modules",
+                     "obj",
+                     ".ds_store",
+                     ".vs",
+                     "GDLibrary"
+              ],
+              "csharp.format.enable": true,
+              "csharp.inlayHints.parameters.enabled": false
              
        }
 }

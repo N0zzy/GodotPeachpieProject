@@ -2,6 +2,7 @@
 namespace AppLibrary;
 
 use Godot\GD;
+use System\Console;
 
 /**
  * @compile-cs
