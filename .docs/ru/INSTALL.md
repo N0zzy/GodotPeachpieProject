@@ -14,11 +14,11 @@
      - C# Tools for Godot<br>
       ![C# Tools for Godot](../.images/image3.png)
      - csproj Extensions | VS Code .csproj <br>
-      ![csproj Extensions](../.images/image4.png)
+      ![csproj Extensions](../.images/image4.png)<br>
       ![VS Code .csproj](../.images/image5.png)
      - vscode-solution-explorer<br>
       ![vscode-solution-explorer](../.images/image6.png)
-       - PHP | PHP Intelephense<br>
-       ![PHP](../.images/image7.png)
+     - PHP | PHP Intelephense<br>
+       ![PHP](../.images/image7.png)<br>
        ![PHP Intelephense](../.images/image8.png)
-       - любые расширения Nuget, с которыми вам будет удобно работать
+     - любые расширения Nuget, с которыми вам будет удобно работать
