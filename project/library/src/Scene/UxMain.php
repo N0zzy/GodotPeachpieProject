@@ -10,6 +10,6 @@ class UxMain extends Node2D
      * @return void
      */
     public function _Ready() : void {
-        GD::Print("Привет из UxMain! Все хорошо! Ошибок нет!");
+        GD::Print("Hello UxMain! It`s Okay!");
     }
 }
