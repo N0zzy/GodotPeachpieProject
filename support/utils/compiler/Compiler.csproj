@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="GodotSharp" Version="4.3.0-beta.2" />
+        <PackageReference Include="PhpieSdk.Library" Version="1.1.2" />
+    </ItemGroup>
+</Project>

@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDApplication", "GDApplication\GDApplication.csproj", "{803FF8C9-BEA6-4420-99A7-FE0DF5667935}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLibrary", "GDLibrary\AppLibrary\AppLibrary.csproj", "{5BB61B0E-4FF0-4F40-B5B6-C670939A99EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodotPeachpieApplication", "project\application\GodotPeachpieApplication.csproj", "{D6537749-BC47-46F1-8F1E-714D40799FFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,13 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{803FF8C9-BEA6-4420-99A7-FE0DF5667935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{803FF8C9-BEA6-4420-99A7-FE0DF5667935}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{803FF8C9-BEA6-4420-99A7-FE0DF5667935}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{803FF8C9-BEA6-4420-99A7-FE0DF5667935}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{5BB61B0E-4FF0-4F40-B5B6-C670939A99EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5BB61B0E-4FF0-4F40-B5B6-C670939A99EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5BB61B0E-4FF0-4F40-B5B6-C670939A99EB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{5BB61B0E-4FF0-4F40-B5B6-C670939A99EB}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D6537749-BC47-46F1-8F1E-714D40799FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6537749-BC47-46F1-8F1E-714D40799FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6537749-BC47-46F1-8F1E-714D40799FFC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6537749-BC47-46F1-8F1E-714D40799FFC}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal

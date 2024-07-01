@@ -1,0 +1,22 @@
+<Project Sdk="Godot.NET.Sdk/4.3.0-beta.2">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net7.0</TargetFramework>
+    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'ios' ">net8.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <CompilerCsharpPath>..\..\support\utils\compiler\Compiler.csproj</CompilerCsharpPath>
+    <GodotPeachpieLibraryPath>..\library\GodotPeachpieLibrary.csproj</GodotPeachpieLibraryPath>
+    <GodotNameEditor>Godot_v4.3-beta2_mono_win64</GodotNameEditor>
+  </PropertyGroup>
+  
+  <Target Name="PreBuild" BeforeTargets="Build">
+    <Message Text="Выполняется перед сборкой..." Importance="high" />
+    <Exec Command="dotnet run --project $(CompilerCsharpPath)" />
+  </Target>
+  
+  <ItemGroup>
+    <ProjectReference Include="$(GodotPeachpieLibraryPath)" />
+  </ItemGroup>
+  
+  
+</Project>

@@ -1,0 +1,60 @@
+#!/usr/bin/php
+<?php
+$module = $module ?? "";
+
+echo "[GodotPeachpie] running...\n";
+
+
+$current_directory = str_replace("\\", "/", getcwd());
+$application_directory = $current_directory . "/project/application";
+$project_path = str_replace("\\", "/", glob($application_directory . '/*.csproj')[0]);
+$project_name = pathinfo($project_path, PATHINFO_FILENAME);
+$csprojContent = file_get_contents($project_path);
+$xml = simplexml_load_string($csprojContent);
+$dom = dom_import_simplexml($xml);
+$targetFrameworkElements = $dom->getElementsByTagName('TargetFramework');
+$targetFramework = $targetFrameworkElements[0]->nodeValue;
+$godotNameEditor = $dom->getElementsByTagName('GodotNameEditor');
+$godotNameEditor = $godotNameEditor[0]->nodeValue;
+$commandPlayer = $current_directory . "/support/ide/" . $godotNameEditor  . ".exe --path " . $current_directory . "/project/application";
+
+$COMMAND = [
+    ["dotnet clean {$project_path}", false],
+    ["dotnet restore {$project_path}", false],
+    ["dotnet build --no-restore {$project_path}", false],
+    ["start /wait /b {$commandPlayer}{$module}", true]
+];
+
+foreach ($COMMAND as $item) {
+    $t = microtime(1);
+    echo "[GodotPeachpie] " . $item[0] . "\n";
+    if($item[1]){
+        $descriptorspec = array(
+            0 => array("pipe", "r"),  // stdin
+            1 => array("pipe", "w"),  // stdout
+            2 => array("pipe", "w")   // stderr
+        );
+        $process = @proc_open($item[0], $descriptorspec, $pipes);
+        if (is_resource($process)) {
+            $status = @proc_get_status($process);
+            $pid = $status['pid'];
+            echo "[GodotPeachpie] pid process {$pid}\n";
+            @file_put_contents("pid", $pid);
+            while(!feof($pipes[1]))
+            {
+                echo fgets($pipes[1], 1024);
+            }
+        }
+        @proc_close($process);
+    }
+    else {
+        $fp=@popen( $item[0],"r");
+        while (!feof($fp)) {
+            //echo
+            @fgets($fp, 1024);
+        }
+        pclose($fp);
+    }
+
+    echo "[GodotPeachpie] time: " . round(microtime(1) - $t, 2) . " sec.\n";
+}

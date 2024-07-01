@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2848a9e-420e-406e-80ae-97f26ddfae3d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.docs/.images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docs/.images/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docs/.images/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docs/.images/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docs/.images/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docs/.images/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docs/.images/image7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docs/.images/image8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docs/.images/image9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docs/en/INSTALL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docs/ru/INSTALL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GDProject.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GDProject.dir/.idea/markdown-navigator-enh.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GDProject.dir/.idea/markdown-navigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GDProject.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GDProject.dir/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GDProject/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/markdown-navigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/.gdignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/Roboto-Black.ttf-9c7bdba3968174031cb451a4405c2abb.fontdata-folding-a35d53e10946aec2745cb219dede9d75.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/Roboto-BlackItalic.ttf-831758fd303e77a97c8030a50b7b5f53.fontdata-folding-e8676c53134f3e179c413676a99a95e0.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/Roboto-Bold.ttf-6b82175c72b302c41d3d1e8d27e92dce.fontdata-folding-ca071cf20b90c8f813c0cce5409581bf.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/Roboto-BoldItalic.ttf-b6daf39a4db05a44b5861b7c43311458.fontdata-folding-a92db83d838eb2ce523ef84b20380b1b.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/Roboto-Italic.ttf-71fd12324569282006bcf4d1cd551e61.fontdata-folding-671ee4a4ac5f5d2e6bcf0db2a2170985.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/Roboto-Light.ttf-dbc85c1007db6dbc36cb37f0b72f1e72.fontdata-folding-5e139f3fe5c8ac9abc3e66b420770614.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/Roboto-LightItalic.ttf-abdb1fc23f57b9fd2d49eb5dd8af4c67.fontdata-folding-7f2777d399833fba59be203391d2e1ff.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/Roboto-Medium.ttf-44f461639dfcccc15a568f3ae54d13a5.fontdata-folding-73fdb498b6d30ada5161b79c5ce3f2ea.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/Roboto-MediumItalic.ttf-d097d2e209e8f9efad7c597fdeab4e2c.fontdata-folding-cc9c6858f81530b63b38e40836dcb7c8.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/Roboto-Regular.ttf-a3c30441babf180359167b2ef0bc7a52.fontdata-folding-ea7e66e2c5a3597f9612b72dd4ba48cb.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/Roboto-Thin.ttf-d05bbb9b3c789381ff1f2fe7bd2d3815.fontdata-folding-1fed8224da8690120d796f9df8b53cc9.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/Roboto-ThinItalic.ttf-1a72d09eeab5d8b0d4c5ac340b5448eb.fontdata-folding-3eb4ba931f4f909bbecce1ab65847809.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/create_recent.Node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/create_recent.Resource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/editor_layout.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/favorites.Node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/favorites.Resource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/filesystem_cache8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/filesystem_update4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/project_metadata.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/recent_dirs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/script_editor_cache.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/theme.tres-folding-1b11a992ebcc6f262e4ee4a4db300a0d.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/used_class_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/window.tscn-editstate-65ac84f1dec13f4fefc02dc4662b226c.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/editor/window.tscn-folding-65ac84f1dec13f4fefc02dc4662b226c.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/global_script_class_cache.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-Black.ttf-9c7bdba3968174031cb451a4405c2abb.fontdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-Black.ttf-9c7bdba3968174031cb451a4405c2abb.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-BlackItalic.ttf-831758fd303e77a97c8030a50b7b5f53.fontdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-BlackItalic.ttf-831758fd303e77a97c8030a50b7b5f53.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-Bold.ttf-6b82175c72b302c41d3d1e8d27e92dce.fontdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-Bold.ttf-6b82175c72b302c41d3d1e8d27e92dce.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-BoldItalic.ttf-b6daf39a4db05a44b5861b7c43311458.fontdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-BoldItalic.ttf-b6daf39a4db05a44b5861b7c43311458.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-Italic.ttf-71fd12324569282006bcf4d1cd551e61.fontdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-Italic.ttf-71fd12324569282006bcf4d1cd551e61.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-Light.ttf-dbc85c1007db6dbc36cb37f0b72f1e72.fontdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-Light.ttf-dbc85c1007db6dbc36cb37f0b72f1e72.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-LightItalic.ttf-abdb1fc23f57b9fd2d49eb5dd8af4c67.fontdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-LightItalic.ttf-abdb1fc23f57b9fd2d49eb5dd8af4c67.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-Medium.ttf-44f461639dfcccc15a568f3ae54d13a5.fontdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-Medium.ttf-44f461639dfcccc15a568f3ae54d13a5.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-MediumItalic.ttf-d097d2e209e8f9efad7c597fdeab4e2c.fontdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-MediumItalic.ttf-d097d2e209e8f9efad7c597fdeab4e2c.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-Regular.ttf-a3c30441babf180359167b2ef0bc7a52.fontdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-Regular.ttf-a3c30441babf180359167b2ef0bc7a52.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-Thin.ttf-d05bbb9b3c789381ff1f2fe7bd2d3815.fontdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-Thin.ttf-d05bbb9b3c789381ff1f2fe7bd2d3815.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-ThinItalic.ttf-1a72d09eeab5d8b0d4c5ac340b5448eb.fontdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/Roboto-ThinItalic.ttf-1a72d09eeab5d8b0d4c5ac340b5448eb.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/BlitShaderRD/b4b29796965081f8838d6cc4c2f80ef150701deb32652cf5a7b1a15ed830e533/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/BlitShaderRD/c2f1d52755200965700b6f348956cefa3cf380b9355ca2d12ee8306796d2dd95/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/BokehDofShaderRD/179ea589610b0772964dcccfa8a928933b32f4d636ec0de6896d461683218175/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/BokehDofShaderRD/4e1a20d4a6154d332b56a183d403487c5317b06f4376d5965389ef9c2e254245/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasOcclusionShaderRD/3d7ba6163f5222d422a71278d1562445dcc293007a5ab418006eba35ce044586/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasOcclusionShaderRD/92ab09a5b748efc7b1cbd2e6ef22120c910e45245cf9a7f45919c10b5b90492f/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasSdfShaderRD/11aeb3e1de1481dde5ad69e00e0d8601c7f1d67218216501fc5264eedc1ab9dd/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasSdfShaderRD/b95b2df40be5327efa8a72986cd88f27cb5dafbfa253f8efa9658eb52e0ffc20/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/648cc310e3b56bd706cd309fa5e18a0e4475282afa239e1becc8cc885165a968/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/648cc310e3b56bd706cd309fa5e18a0e4475282afa239e1becc8cc885165a968/1bab8848f11993699fd9b5d1729377c0dd9e4024.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/648cc310e3b56bd706cd309fa5e18a0e4475282afa239e1becc8cc885165a968/323ddf3deeacbe0ea413ec71d66b65d04e7d1a46.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/648cc310e3b56bd706cd309fa5e18a0e4475282afa239e1becc8cc885165a968/3807593a1871d2e064fb0bac29effc3f0c2260c0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/648cc310e3b56bd706cd309fa5e18a0e4475282afa239e1becc8cc885165a968/56d9fe4d6b0b7002894526797f5e65db0d5f1e18.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/648cc310e3b56bd706cd309fa5e18a0e4475282afa239e1becc8cc885165a968/64447a736aff6a458b114aea85eaf603d253f9a8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/648cc310e3b56bd706cd309fa5e18a0e4475282afa239e1becc8cc885165a968/98676c93f49a619be763bf730c8db104e1e3ad96.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/648cc310e3b56bd706cd309fa5e18a0e4475282afa239e1becc8cc885165a968/a95ddc2e45b9d96ca4ee5ca9f90e835dece08c32.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/768a940bcb6ab8ef0d50e97194520c254fea1ecc69313d44cf054f3f01c05852/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/768a940bcb6ab8ef0d50e97194520c254fea1ecc69313d44cf054f3f01c05852/6c94b25d75b1ec58f806edc8e65c2a35743ad557.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/768a940bcb6ab8ef0d50e97194520c254fea1ecc69313d44cf054f3f01c05852/86b4b6d51b4a45af6d7a93cd8ccd2af80a156da9.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/768a940bcb6ab8ef0d50e97194520c254fea1ecc69313d44cf054f3f01c05852/98676c93f49a619be763bf730c8db104e1e3ad96.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/768a940bcb6ab8ef0d50e97194520c254fea1ecc69313d44cf054f3f01c05852/9d0533530a382e64370fc542a58d7fdac6c773bd.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/768a940bcb6ab8ef0d50e97194520c254fea1ecc69313d44cf054f3f01c05852/a444689c2f13418983bd978ab522bd863aed69c5.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/768a940bcb6ab8ef0d50e97194520c254fea1ecc69313d44cf054f3f01c05852/cfbe819c6b55623a3cfeaf8d0ab83aeaa2d48269.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CanvasShaderRD/768a940bcb6ab8ef0d50e97194520c254fea1ecc69313d44cf054f3f01c05852/eaf44e18cd01e1dcdf84a400c6fbe82c311d34e7.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ClusterDebugShaderRD/234b44222edc9f4da16f639fb0488d41b309239ab322cd8b08618b8f1fe939ca/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ClusterDebugShaderRD/88f882e74c383f02c224c438558d1787b699e442f36dbd5a55d94cd7348f2296/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ClusterRenderShaderRD/05d27f4d18a39e04210433bbc01f89f4fafb1618ccf2cb75e495a855153a61b9/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ClusterRenderShaderRD/369199d77a3f0d4acab002ac8c9ba857925a06e5dc82b6823747a3170da60dfa/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ClusterStoreShaderRD/b3d80326dc8552679e23efedc2f74a5c982ab3f5c886ec9bd98fa9f10b0723b1/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ClusterStoreShaderRD/ca1a04ee1bdde8f26ec895c8a7a4f0bd673204cc6bbd6c9c0d88becbfa767f81/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CopyShaderRD/a01097c5b89928dd653e6f213ce5d2ee3922ca680e80521bc1f4675ce79a312a/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CopyShaderRD/a7ebfc6140511fdaa56f71e99b39cb2eb2a0acce08354c74a6a1835ebfe74bfb/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CopyToFbShaderRD/94bc9909b821174238ebc4355459d921ecf6e7463ab53cedaadba00c50ca750f/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CopyToFbShaderRD/e40bd870ed8853db3c35d8f0b8dbae052e2a3f48ed056fe55d8725cd711e55ac/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CubeToDpShaderRD/253f78226fd39f065d2db4c93bd4abf19a961f0f9bec9486e7948cdedc89f7ec/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CubeToDpShaderRD/848b11591e02f1a376c22ef80a6b55aee44ed6bf997f1a831f1220fceeca3cc9/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CubemapDownsamplerShaderRD/68a5bd8ac73701e077199d911e9b53dbc7b9c5cdede6462ca74f269ed5ce586b/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CubemapDownsamplerShaderRD/7f740a8d7cd9c4186462b9e1b332f46b7cd444267e394d57ad68d9b1d111efe2/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CubemapFilterShaderRD/d0ec261dccc7d47a376e05710fc6c7d37166c5b9a5862c288e675dc97bf06649/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CubemapFilterShaderRD/e763a34c76d94a6db174634ef9b93c6a1483e591eb32306c86c14149bcc614d2/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CubemapRoughnessShaderRD/25108099ef7a62c3e3ce1910aa4d1ff87379a06fedec32bf504970fba37710f6/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/CubemapRoughnessShaderRD/8ec62967864530b8a037e6cda252c39c7939b7c92bb95807e65c31c852a59050/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/FsrUpscaleShaderRD/043a9c462bef5fe822478a7add8bb7ab81b5b823dad913700611cdfa9b4bff7a/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/FsrUpscaleShaderRD/b1907a6444d1c331fb568af178c19df6322eb16381280e5b03471333bab03af2/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/GiShaderRD/873d8f0d0ee2571eeaef4aac446d88e194c1110c0ffb8a6715d9db211444cc35/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/GiShaderRD/b96b3e1913b91c7f5da5b00a62e1823d244337c55401b9e823587441ef9cf61f/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/LuminanceReduceShaderRD/3512140c2c34ee76d0d945c96a00a1a51c75f778e930f5861d3965e6c4241f01/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/LuminanceReduceShaderRD/c7024d6968413d9e6ec46e9035f60799559ec2521a86516c038d0cd9628ef9c5/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ParticlesCopyShaderRD/5bb840ca2fa4f805a3bfe7d5e57e30476238db0bb7955b55561ced09219353b9/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ParticlesCopyShaderRD/e52e76f1a88726b4190968f6cd06236c0e8d60b4ae14d876e98e584e6aafb852/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ParticlesShaderRD/036d2c17e286c048b0ffa82cd61f6828abb2be809927064dccc6cbd084ddf741/f128cab0b22fb7e0d9f023d6cdb81309be392d95.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ParticlesShaderRD/73aba4694bbe30eab30f3d0d26415acc5e1b075c8597437e3d792a9eea5e9ea2/f128cab0b22fb7e0d9f023d6cdb81309be392d95.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ResolveShaderRD/82d76dce6f2d071696b4744b3faabb1c1b96df9c707992cb7192d32d3c202808/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ResolveShaderRD/e63a3ec5c23396ce39e4baa183eac33176017017322ffbebca3db38dacec2b49/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/RoughnessLimiterShaderRD/e5ddcb840c94cad52e5a45a1198d57ff0a86fd1500d57a2ff12bae6c3abf66aa/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/033e026e3e20c13b1288f9cdfe88365ec252bdb4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/18d20e2757a0f4ce9b109ae99852f1be6eaa1288.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/34a5e28b5a870ad273349f953c5d1224ef2811a7.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/54202eec702711805ef2e96464566c5d36cf146f.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/5fbe352551ecabe1c14129f0b394584c6f3d1daf.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/6c6b12a5e393b3ca55ab7e2b9672a7cf1ad24213.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/7af3e87b30723c67f6b8ba1afe89d42e437af281.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/84f3bfa29ba52d036ccb227b544f4212261b97e7.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/8c405797d04cff2252b29dc660af5eda3a9bef6a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/8c8d1a6e1940414ebf1cf97ca8b2d4433d11de96.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/94a99aac296381f489ce917ffe42b0c658c96bee.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/a8cbfc6c6dd9bf771a6f6d7faad8520566a3ae79.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/b53ca1d3fad36029633e28e9f4d285429e1ba7be.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/bb1180fbd147b6e348c825ef2adb98c6354bd9fb.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/ca86eaf3ca86f96cd58587dd17f17eb747ce6ba0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/ddecddbcd2cd0ac6dd77ff972f086e7fc640412a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/2004c69a1612184ef8cd8d086f8b51bbffd24eea1a93f3b6c072bc58f789c770/eb9d28aefd0319947f8861f24e94cfa251997039.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/118ba36f6ebd3257d0e24fef9b5c1f403c461a66.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/1344ce3d77ef72d56eef3c9cd0d5417bdd0a4b13.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/3c2004ff2f4cb10be32eecce3aef58999f3a3c00.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/3d0d92e506ebed59ea8f1359f384dea3a9c607db.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/56b5925a2b0572c2ded75f0fcb579c223484ca13.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/5e1ddc0dfdfa4a0280e0bd9cfc3279252e3c7973.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/7e6f09e567701e5ed403065b0ec9125225432ba4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/84f3bfa29ba52d036ccb227b544f4212261b97e7.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/8c405797d04cff2252b29dc660af5eda3a9bef6a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/8d29d1fcc64ce2d8b7ed49c901c65a91146fbb76.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/90d1f2dc8493a4c954ba463e0fb3e0232f84d84d.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/9909cf38417b9edb6e5a64b31241317810757356.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/9bac24b6b27ed3d77e750d66523fc854f8d3e4d8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/9daebd2e9a93be48c2f780ac379da9f156a37fc1.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/d5380b6ac7ee6d22bc98457496eb4495a49b1c6f.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SceneForwardClusteredShaderRD/9bbb546eb412775406568803a96fe335a7b2d7e28b60038b0ab86432da3c3450/f56c506d48f920a47e552ed6cf6059536156a939.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ScreenSpaceReflectionFilterShaderRD/9086a4843736ca82f941e39d6761895a3d70c47b681a2fa9b2e0b72b183534ee/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ScreenSpaceReflectionFilterShaderRD/ad81fc06a47e04c028b1f0d1e601818ef0755aa7a32671ed5a882b0c22cf0c2b/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ScreenSpaceReflectionScaleShaderRD/5bff3a9b61301c1fd05474160229717e9cc1ecf605844117503341b9b1ab5092/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ScreenSpaceReflectionScaleShaderRD/9d389232f540cd6ff6c2dd812a5b81bbf9f283c03f2d0222683af1b60e206b02/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ScreenSpaceReflectionShaderRD/384a1e0a8b13d9eef4647783d37241daf0d9e58954685095fc9a81f681fd8582/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/ScreenSpaceReflectionShaderRD/70c8cb444d8058c772ced4c5e4b02f66d4b197b20a50ecf728d59732dac57e77/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SdfgiDebugProbesShaderRD/39d29eacd325e473a2a2c67980bfa703556fa21599d74945ddf41512021d6b63/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SdfgiDebugProbesShaderRD/f5a1e9f23a38b610ce02ed4d97d33fb6d2eb2b2eab6ac3e55601250a99dd2b45/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SdfgiDebugShaderRD/19bb112b5936d89a78ebd6dd6b1ba115993927640303397c343a5b02d7a7de99/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SdfgiDebugShaderRD/78a6e5db9a3c550bba389904e8a17703ebfbd5582549be8315e289ec697fdb01/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SdfgiDirectLightShaderRD/37e8451a58acdb60b53c6081bf2d5b13b1214f45a8a5069fe4f12af632f4b593/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SdfgiDirectLightShaderRD/b51c953c895f50ed291e2447b1ba68e74a15c3456c9543e13b944d4bfa52e59e/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SdfgiIntegrateShaderRD/787dd81f8782397c3b78d8f955b560c24d56a144db5b4d4136ff1e7f7d7e715b/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SdfgiIntegrateShaderRD/886dc4ff8008395021a22e1e426f70284f929a606193d9cefce9f7dfe6e18300/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SdfgiPreprocessShaderRD/439a9887b35fc4536be3f14fa0f12b8c43cff69645d0cd38885c2bc2e59758d7/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SdfgiPreprocessShaderRD/4b49e1d0c6d932608a0b7e49db561bc4139898c130425be4217d4c67560350e7/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SkeletonShaderRD/7204b91e4cd448c039c3c7d9411e9b0bc812f4f18441083a83f3d226f31ec521/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SkeletonShaderRD/8caeb0594b84f48168e5c60481b8545dc8340f2837ed1e075cc8c0feb4ad7bd7/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SkyShaderRD/12a17758ae08473c9c78b9c9c13890d08aabf2d3169263ffdbc58f81e9ed7ee8/03e3b11c69e24394b2d955a8c0ba85587bb70839.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SkyShaderRD/12a17758ae08473c9c78b9c9c13890d08aabf2d3169263ffdbc58f81e9ed7ee8/064198c016022615fe6753142c7d0fb63e72359e.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SkyShaderRD/12a17758ae08473c9c78b9c9c13890d08aabf2d3169263ffdbc58f81e9ed7ee8/5e341807a40df1680aa1db561c90fe1002c781bd.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SkyShaderRD/12a17758ae08473c9c78b9c9c13890d08aabf2d3169263ffdbc58f81e9ed7ee8/79dc3bbb81851ed6d2a1ad9cc2f3769d66b46f3f.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SkyShaderRD/12a17758ae08473c9c78b9c9c13890d08aabf2d3169263ffdbc58f81e9ed7ee8/8fe86c44ce6769fa73b7b51d9e577eb651b19e4b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SkyShaderRD/12a17758ae08473c9c78b9c9c13890d08aabf2d3169263ffdbc58f81e9ed7ee8/de678811d1bad3cad4892a8db7b6ea0be197d51d.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SkyShaderRD/92473bae51d06bf654ef4f447af22d4426f2db7906ef4dba10874131e2b77488/03e3b11c69e24394b2d955a8c0ba85587bb70839.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SkyShaderRD/92473bae51d06bf654ef4f447af22d4426f2db7906ef4dba10874131e2b77488/59fe6cf05bf4a13d34c144643274612aacecb959.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SkyShaderRD/92473bae51d06bf654ef4f447af22d4426f2db7906ef4dba10874131e2b77488/793ce7e11b582451627017df13679d8dac889488.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SkyShaderRD/92473bae51d06bf654ef4f447af22d4426f2db7906ef4dba10874131e2b77488/95e55bdcfff59c30143e80c9cabfe2f175ddb660.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SkyShaderRD/92473bae51d06bf654ef4f447af22d4426f2db7906ef4dba10874131e2b77488/de678811d1bad3cad4892a8db7b6ea0be197d51d.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SkyShaderRD/92473bae51d06bf654ef4f447af22d4426f2db7906ef4dba10874131e2b77488/f01de7cfc190c5a681916d623818c76cd220b8f4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SortShaderRD/bbc61ccf4e8d618fda43c2e9be55e052efec7ff4778823329ce8bcdaf6cb79f0/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SortShaderRD/c962cf99471cf2b2af9ecb6c36ac61212d45fdac7ec90cbb21fcf3e9f3d81837/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SpecularMergeShaderRD/3ff058b733c26d1091c0ad92a272071a493a0d9cafa9af6b00bd4378e307cc6b/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SpecularMergeShaderRD/fa9280cfdae9918d12d99092daf8f0ebc132718562abbbc50fddde1ea4f6ca93/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsEffectsDownsampleShaderRD/2bb7b9f5ccada7ae7015970d5fb7f34dea1d257a82c58a216c382124b2900ddf/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsEffectsDownsampleShaderRD/67add1e333e2478154aa4c4ed41b6d7a1e394de3e0875878db65f93dedc0b698/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsaoBlurShaderRD/6b63a29201bdeb4afe643ed7ff874665e283832b35877f8b75438cde2e22f0ac/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsaoBlurShaderRD/f272214372abaffe0d6ed907d2a2d9d761e328e1916cbc3835fd26217edfd075/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsaoImportanceMapShaderRD/0ffe5b0c310a714a9984723c46522030839db8174f1d111ed78820d9f73b8db8/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsaoImportanceMapShaderRD/91375f3fba95fa03a5064db08493d1aa5eec833f3e4aa87865f9189d9d56e9e3/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsaoInterleaveShaderRD/115877e83d469e48bec48f9a1cd7cbb43659e42a7ac3b59dff3cf1596341bfd8/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsaoInterleaveShaderRD/a7f59977d1afee3bf50489a135320a28a2ebfb1d01a13e8c996723208206739d/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsaoShaderRD/57f594fe4ca9cab11da92b5db53c3da2c4f9fed7d54bda4637a82a875be96b8b/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsaoShaderRD/99ea18aaea2389cdb10513887a8074c1571f0563c6313be8dfc0169da13e0f3c/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsilBlurShaderRD/234c0ec18f6d53ed1c398505763d2b3128de6e09d0e924009bbf111057df444c/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsilBlurShaderRD/960cd13fb81467bb20384c9e0d240f53a863e1b64df03e602ec0e89578b6222a/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsilImportanceMapShaderRD/02a2fa8f5bc4f0a3c641a91a4653883124e012d07d88b360917c79545e0f8da7/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsilImportanceMapShaderRD/f1693982b0e6960e73c5ed36b7de14e0bd7818230244207dc05f84e788381574/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsilInterleaveShaderRD/09d02d37ea90700da14701cb80b29b6aab2d82fa78522ed96cfade64bee93d85/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsilInterleaveShaderRD/576387f3d286cc03bd12a368a3179ff99039c44f34e984281d6b864122212c0a/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsilShaderRD/75739402badefa33e8bf4ba7cbde924db104066b37561cc6761fb23215d122dd/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SsilShaderRD/7c544d4cb09d6151d2da02e8154dddaf46ee10340ce30f1c02dd4c6402809f74/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SubsurfaceScatteringShaderRD/7fa49f81ae0114c6012d960427357546875760f22a5e7f36cd72ba4162d68dff/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/SubsurfaceScatteringShaderRD/9e3c3a463e384cc3c48779fab97927f23e266f3713c75f4ebbc18cfb5e138d0e/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/TaaResolveShaderRD/c2ab298f282bce21f74b892895531ed9fe7ae7f8f154cfd6af48cadeb8881845/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/TaaResolveShaderRD/d8fc4c3ca512a5e8f306f9bdba13d0daaa6c764dcd17d1e919b627c8ce1cd770/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/TonemapShaderRD/136f5f0e6989422c17c793f1d912ff3ec2724048e4a15d3b50fb874fd253f3a0/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/TonemapShaderRD/8f4ef13f770ca9b28453a50bd2e69720362a04cb7780d45364c52d7f61921db4/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/VolumetricFogProcessShaderRD/42e2dad7c0d62523fa322856fbd59ee4e16ac1a71cb4cbc322ed6f9ce02ed638/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/VolumetricFogProcessShaderRD/fd7297eb0e24394ff78752f05138167d62cacf725368c30bb1c814b41ddd44b1/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/VolumetricFogShaderRD/975c06d062e98960938fdf08bbeb5b65f569822f489bb549e216ba1af95c4943/9a227745af2d65830f930370a9fbba551fbd6f60.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/VolumetricFogShaderRD/e8e03650409b51dbb984da28e2da4ca57d5b351410b54cc85ecd2e3b30c4df66/9a227745af2d65830f930370a9fbba551fbd6f60.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/VoxelGiDebugShaderRD/2d9932eeb6cb6cf8bcec70b30515ff04ed24094bf2cc48e0fe467f8a41512732/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/VoxelGiDebugShaderRD/fac8ec72dbbaaf7859dcfc90aff212ba90df5e44b9a0ab2f23055824ec8c5687/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/VoxelGiShaderRD/50ca44b4a34614853e6e99b434039e06056723cdc017cd9b30ac904be8b07147/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/VoxelGiShaderRD/9270766eeb2299f2a122e2a48b2b4a5432d67cce3ca0768a6439791722e9ca7f/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/VrsShaderRD/4cd832894b6fcf55fd49dd81213ecefc03cf673ffcb2f14842076a8b78a3e9ff/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/shader_cache/VrsShaderRD/d3cf5e27cd34584bfec34510117cda868b27a0e32138f75e4c5584dfa3cc8739/087916079fba7c625e62b0c2cca570e0fb87c99a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.godot/uid_cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.idea/.idea.GDApplication/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.idea/.idea.GDApplication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/.idea/.idea.GDApplication/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/AppLibrary/Button.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/AppLibrary/Button2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/AppLibrary/TextEdit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/AppLibrary/Window.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/GDApplication.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/GDApplication.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-Black.ttf.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-BlackItalic.ttf.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-Bold.ttf.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-BoldItalic.ttf.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-Italic.ttf.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-Light.ttf.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-LightItalic.ttf.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-Medium.ttf.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-MediumItalic.ttf.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-Regular.ttf.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-Thin.ttf.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/fonts/Roboto/Roboto-ThinItalic.ttf.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/icon.svg.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/project.godot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/theme.tres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDApplication/window.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDLibrary/AppLibrary/AppLibrary.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDLibrary/AppLibrary/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDLibrary/AppLibrary/src/AppLibrary/UxButton.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDLibrary/AppLibrary/src/AppLibrary/UxButton2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDLibrary/AppLibrary/src/AppLibrary/UxButton2Abstract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDLibrary/AppLibrary/src/AppLibrary/UxButtonAbstract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDLibrary/AppLibrary/src/AppLibrary/UxTextEdit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDLibrary/AppLibrary/src/AppLibrary/UxTextEditAbstract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDLibrary/AppLibrary/src/AppLibrary/UxWindow.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDLibrary/AppLibrary/src/AppLibrary/UxWindowAbstract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDLibrary/GDLibrary.code-workspace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDLibrary/pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDProject.code-workspace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GodotPeachpieProject.sln" beforeDir="false" afterPath="$PROJECT_DIR$/GodotPeachpieProject.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GodotPeachpieProject.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/.scripts/run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/GodotCompile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/SharpieSdk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/example.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2ieYasdU4Eb5KQYby8mt8UZarK8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\pc-system\\AppData\\Local\\JetBrains\\Shared\\vAny\\DecompilerCache",
+      "C:\\Users\\pc-system\\AppData\\Local\\JetBrains\\Shared\\vAny\\SourcesCache",
+      "C:\\Users\\pc-system\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2848a9e-420e-406e-80ae-97f26ddfae3d" name="Changes" comment="" />
+      <created>1719852579709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719852579709</updated>
+      <workItem from="1719852580962" duration="61000" />
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

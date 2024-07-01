@@ -1,0 +1,5 @@
+#!/usr/bin/php
+<?php
+$module = " --editor";
+
+require_once "player";

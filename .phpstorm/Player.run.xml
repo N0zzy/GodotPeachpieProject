@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Player" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Player">
+    <CommandLine>
+      <PhpTestInterpreterSettings>
+        <option name="interpreterName" value="E:\OpenServer5.4.2\modules\php\PHP_8.2\php.exe" />
+      </PhpTestInterpreterSettings>
+    </CommandLine>
+    <method v="2" />
+  </configuration>
+</component>
