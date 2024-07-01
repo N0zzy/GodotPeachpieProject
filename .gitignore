@@ -6,3 +6,5 @@ support/utils/compiler/bin
 support/utils/compiler/obj
 pid
 support/ide/*.exe
+support/utils/compiler/.sdkfiles
+
