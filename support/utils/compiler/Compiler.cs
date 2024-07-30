@@ -61,8 +61,8 @@ public abstract class CompilerHelper
                 .Replace(".php", "");
             var ns = RemoveLastSegment(s);
             var nm = GetLastSegment(s);
-
-            var dir = ApplicationPath + $"scene{d}/";
+            var sn = name.ToLower();
+            var dir = ApplicationPath + $"{sn}{d}/";
             if( !Directory.Exists( dir )){
                 Directory.CreateDirectory( dir );
             }
