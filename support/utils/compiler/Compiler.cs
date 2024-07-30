@@ -19,7 +19,7 @@ public class Compiler: CompilerHelper
         ProjectPath = GetProjectPath();
         ApplicationPath = $"{ProjectPath}project/application/";
         LibraryPath = $"{ProjectPath}project/library/";
-        GenerateUxScenes();
+        GenerateUx();
         
         new PhpieSdkRunner().Run( 
             ProjectPath + OutPath, 
@@ -77,6 +77,8 @@ public abstract class CompilerHelper
                 + "\t}\n"
                 +"}"
             );
+            
+            File.WriteAllText()
         }
     }
 
