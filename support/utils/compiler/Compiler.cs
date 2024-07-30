@@ -127,7 +127,7 @@ public abstract class CompilerHelper
     protected static string GetSignals(string code)
     {
         var result = "";
-        string pattern = @"/\*\* @signal \*\*/[\s\S]*?function\s+(\w+)\(([^)]*)\)";
+        string pattern = @"@signal[\s\n]*\*\*/[\s\S]*?function\s+(\w+)\(([^)]*)\)";
         MatchCollection matches = Regex.Matches(text, pattern);
 
         foreach (Match match in matches)
