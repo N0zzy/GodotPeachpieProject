@@ -1,0 +1,6 @@
+﻿<Project>
+    <PropertyGroup>
+        <GodotVersion>4.3-rc1</GodotVersion>
+        <GodotBuildVersion>4.3.0-rc.1</GodotBuildVersion>
+    </PropertyGroup>
+</Project>

@@ -17,7 +17,7 @@
     </PropertyGroup>
     
     <ItemGroup>
-        <PackageReference Include="GodotSharp" Version="4.3.0-rc.1" />
+        <PackageReference Include="GodotSharp" Version="$(GodotBuildVersion)" />
     </ItemGroup>
     <ItemGroup>
         <Compile Include="**/*.php" />

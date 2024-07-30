@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2848a9e-420e-406e-80ae-97f26ddfae3d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.screenshots/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/.screenshots/.keep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.screenshots/img_2.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.screenshots/img-1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.screenshots/img-2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Directory.Build.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/library/Directory.Build.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/support/utils/compiler/Directory.Build.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/application/GodotPeachpieApplication.csproj.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/library/GodotPeachpieLibrary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/project/library/GodotPeachpieLibrary.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support/utils/compiler/.sdkfiles" beforeDir="false" afterPath="$PROJECT_DIR$/support/utils/compiler/.sdkfiles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support/utils/compiler/Compiler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/support/utils/compiler/Compiler.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1719852579709</updated>
       <workItem from="1719852580962" duration="61000" />
+      <workItem from="1722343256082" duration="199000" />
+      <workItem from="1722343568900" duration="1126000" />
     </task>
     <task id="LOCAL-00001" summary="props, signal, example btn">
       <created>1722342858563</created>
@@ -50,7 +61,21 @@
       <option name="project" value="LOCAL" />
       <updated>1722342858563</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="props, signal, example btn">
+      <created>1722343281673</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722343281673</updated>
+    </task>
+    <task id="LOCAL-00003" summary="props, signal, example btn">
+      <created>1722343365554</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722343365554</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
