@@ -1,0 +1,73 @@
+Index: .idea/.idea.GodotPeachpieProject/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e2848a9e-420e-406e-80ae-97f26ddfae3d\" name=\"Changes\" comment=\"props,\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"mock://E:/Godot4/GodotPeachpie/GodotPeachpieProject/support/utils/compiler/Compiler.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/support/utils/compiler/Compiler.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2ieYasdU4Eb5KQYby8mt8UZarK8\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;rider.external.source.directories&quot;: [\r\n      &quot;C:\\\\Users\\\\pc-system\\\\AppData\\\\Local\\\\JetBrains\\\\Shared\\\\vAny\\\\DecompilerCache&quot;,\r\n      &quot;C:\\\\Users\\\\pc-system\\\\AppData\\\\Local\\\\JetBrains\\\\Shared\\\\vAny\\\\SourcesCache&quot;,\r\n      &quot;C:\\\\Users\\\\pc-system\\\\AppData\\\\Local\\\\Symbols\\\\src&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e2848a9e-420e-406e-80ae-97f26ddfae3d\" name=\"Changes\" comment=\"\" />\r\n      <created>1719852579709</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1719852579709</updated>\r\n      <workItem from=\"1719852580962\" duration=\"61000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"main\" />\r\n                </option>\r\n              </RecentGroup>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"HEAD\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"CLEAR_INITIAL_COMMIT_MESSAGE\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.GodotPeachpieProject/.idea/workspace.xml b/.idea/.idea.GodotPeachpieProject/.idea/workspace.xml
+--- a/.idea/.idea.GodotPeachpieProject/.idea/workspace.xml	(revision d86716a6f4c6e3695c86c3b2b39ea37ec6551181)
++++ b/.idea/.idea.GodotPeachpieProject/.idea/workspace.xml	(date 1722341588859)
+@@ -4,7 +4,13 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e2848a9e-420e-406e-80ae-97f26ddfae3d" name="Changes" comment="props," />
++    <list default="true" id="e2848a9e-420e-406e-80ae-97f26ddfae3d" name="Changes" comment="@signal">
++      <change afterPath="$PROJECT_DIR$/.screenshots/img.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.screenshots/img_1.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/support/utils/compiler/.sdkfiles" beforeDir="false" afterPath="$PROJECT_DIR$/support/utils/compiler/.sdkfiles" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -43,7 +49,16 @@
+       <option name="presentableId" value="Default" />
+       <updated>1719852579709</updated>
+       <workItem from="1719852580962" duration="61000" />
++      <workItem from="1722340769673" duration="819000" />
+     </task>
++    <task id="LOCAL-00001" summary="@signal">
++      <created>1722341293832</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1722341293832</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -91,5 +106,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
++    <MESSAGE value="@signal" />
++    <option name="LAST_COMMIT_MESSAGE" value="@signal" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.dev\r\nproject/.sdk\r\nproject/library/bin\r\nproject/library/obj\r\nsupport/utils/compiler/bin\r\nsupport/utils/compiler/obj\r\npid\r\nsupport/ide/*.exe\r\nsupport/ide/GodotSharp
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision d86716a6f4c6e3695c86c3b2b39ea37ec6551181)
++++ b/.gitignore	(date 1722341550685)
+@@ -6,4 +6,9 @@
+ support/utils/compiler/obj
+ pid
+ support/ide/*.exe
+-support/ide/GodotSharp
+\ No newline at end of file
++<<<<<<< HEAD
++support/ide/GodotSharp
++=======
++support/utils/compiler/.sdkfiles
++
++>>>>>>> 8e1fd922f8a5d54dbc5bf9e81711e077b5d279c8
