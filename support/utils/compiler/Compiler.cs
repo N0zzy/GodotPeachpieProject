@@ -43,10 +43,10 @@ public abstract class CompilerHelper
         return currentPath.Split("support")[0].Replace("\\", "/");
     }
     
-    protected static void GenerateUxScenes()
+    protected static void GenerateUx(string name)
     {
         string[] uxScenes = Directory.GetFiles(
-            LibraryPath + "src/Scene", "Ux*.php", SearchOption.AllDirectories
+            LibraryPath + "src/" + name, "Ux*.php", SearchOption.AllDirectories
         );
         
         foreach (var scene in uxScenes)
