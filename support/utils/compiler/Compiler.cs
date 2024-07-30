@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace Compiler;
 
@@ -9,9 +11,11 @@ using PhpieSdk.Library;
 public class Compiler: CompilerHelper
 {
 
-    private static string OutPath = "project/";
+    protected static string OutPath = "project/";
     
-    private static string LibsPath = "support/utils/compiler/bin/Debug/net7.0";
+    protected static string LibsPath = "support/utils/compiler/bin/Debug/net7.0";
+    
+    public static readonly string PrefixPhpFiles = "Ux";
     
 
     public static void Main( string[] args )
@@ -28,6 +32,7 @@ public class Compiler: CompilerHelper
         foreach (var dir in  dirs)
         {
             GenerateUx(dir, index);
+			index++;
         }
         new PhpieSdkRunner().Run( 
             ProjectPath + OutPath, 
@@ -65,7 +70,7 @@ public abstract class CompilerHelper
             var s = p
                 .Replace("\\", ".")
                 .Replace("/", ".")
-                .Replace("Ux", "")
+                .Replace(Compiler.PrefixPhpFiles, "")
                 .Replace(".php", "");
             var ns = RemoveLastSegment(s);
             var nm = GetLastSegment(s);
@@ -73,22 +78,11 @@ public abstract class CompilerHelper
             var dir = ApplicationPath + $"{sn}{d}/";
             if( !Directory.Exists( dir )){
                 Directory.CreateDirectory( dir );
-            }
-            File.WriteAllText($"{dir}{nm}.cs", 
-                $"using GodotPeachpie.Scene{ns};\n" +
-                $"using Godot;\n" +
-                $"public partial class {nm} : Ux{nm}\n" +  
-                "{\n"
-                + "\tpublic override void _Ready()\n"
-                + "\t{\n"
-                + "\t\tbase._Ready();\n"
-                + "\t}\n"
-                +"}"
-            );
-            
+            }            
             var txt = $"using GodotPeachpie.{name}{ns};\n" +
                       $"using Godot;\n" +
-                      $"public partial class {nm} : {ns}.{nm}\n" +  
+                      $"[Tool]\n" +
+                      $"public partial class {nm} : {Compiler.PrefixPhpFiles}{nm}\n" +  
                       "{\n";
             var code = File.ReadAllText(ux);
             if(index == 0)
@@ -96,10 +90,10 @@ public abstract class CompilerHelper
                 txt += "\tpublic override void _Ready()\n"
                      + "\t{\n"
                      + "\t\tbase._Ready();\n"
-                     + "\t}\n"
-                     +"}";
+                     + "\t}\n";
             }
             txt += GetSignals(code);
+            txt += "}";
             File.WriteAllText($"{dir}{nm}.cs", txt);
         }
     }
@@ -127,20 +121,22 @@ public abstract class CompilerHelper
     protected static string GetSignals(string code)
     {
         var result = "";
-        string pattern = @"@signal[\s\n]*\*\*/[\s\S]*?function\s+(\w+)\(([^)]*)\)";
-        MatchCollection matches = Regex.Matches(text, pattern);
+        string pattern = @"/\*\*\s*\*\s*@signal\s*\*/\s*public function\s+(\w+)\(([^)]*)\)";
+        MatchCollection matches = Regex.Matches(code, pattern);
 
         foreach (Match match in matches)
         {
             string functionName = match.Groups[1].Value;
-            string[] parameters = match.Groups[2].Value.Split(", ");
-            var allParameters = (parameters.Length < 1 ? "" : "object " + string.Join(", object ", parameters))
+            string[] parameters = Regex.Matches(match.Groups[2].Value, @"\$([\w_]+)")
+                                       .Cast<Match>()
+                                       .Select(m => m.Groups[1].Value)
+                                       .ToArray();
+            var allParameters = (parameters.Length < 1   ? "" : "object " + string.Join(", object ", parameters))
                 .Replace("$", "");
-
-            result += "\t\tpublic override void " + functionName + "(" + allParameters + ")\n"
-                     + "\t\t{\n"
-                     + "\t\t\tbase._" + functionName + "(" + string.Join(", ", parameters).Replace("$", "") + ");\n"
-                     + "\t\t}\n";
+            result += "\tpublic override void " + functionName + "(" + allParameters + ")\n"
+                      + "\t{\n"
+                      + "\t\tbase." + functionName + "(" + string.Join(", ", parameters).Replace("$", "") + ");\n"
+                      + "\t}\n";
         }
         return result;
     }

@@ -1,6 +1,23 @@
-[gd_scene load_steps=2 format=3 uid="uid://bepi37lr0md48"]
+[gd_scene load_steps=3 format=3 uid="uid://bepi37lr0md48"]
 
 [ext_resource type="Script" path="res://scene/Main.cs" id="1_ii7y2"]
+[ext_resource type="Script" path="res://gui/ButtonIdTest.cs" id="2_ym220"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_ii7y2")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 73.0
+offset_top = 29.0
+offset_right = 422.0
+offset_bottom = 101.0
+
+[node name="Button" type="Button" parent="."]
+offset_left = 73.0
+offset_top = 133.0
+offset_right = 423.0
+offset_bottom = 206.0
+text = "press"
+script = ExtResource("2_ym220")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
