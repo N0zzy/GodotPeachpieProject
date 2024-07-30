@@ -19,8 +19,16 @@ public class Compiler: CompilerHelper
         ProjectPath = GetProjectPath();
         ApplicationPath = $"{ProjectPath}project/application/";
         LibraryPath = $"{ProjectPath}project/library/";
-        GenerateUx();
-        
+
+        var dirs = new string[]
+        {
+            "Scene", "Gui"
+        };
+        var index = 0;
+        foreach (var dir in  dirs)
+        {
+            GenerateUx(dir, index);
+        }
         new PhpieSdkRunner().Run( 
             ProjectPath + OutPath, 
             ProjectPath + LibsPath
@@ -43,15 +51,15 @@ public abstract class CompilerHelper
         return currentPath.Split("support")[0].Replace("\\", "/");
     }
     
-    protected static void GenerateUx(string name)
+    protected static void GenerateUx(string name, int index)
     {
         string[] uxs = Directory.GetFiles(
             LibraryPath + "src/" + name, "Ux*.php", SearchOption.AllDirectories
         );
         
-        foreach (var scene in uxs)
+        foreach (var ux in uxs)
         {
-            var p = scene.Split(name)[1];
+            var p = ux.Split(name)[1];
             var d = Path.GetDirectoryName(p)!.Substring(1);
             d = d.Length > 0 ? $"/{d}" : d;
             var s = p
@@ -78,7 +86,21 @@ public abstract class CompilerHelper
                 +"}"
             );
             
-            File.WriteAllText()
+            var txt = $"using GodotPeachpie.{name}{ns};\n" +
+                      $"using Godot;\n" +
+                      $"public partial class {nm} : {ns}.{nm}\n" +  
+                      "{\n";
+            var code = File.ReadAllText(ux);
+            if(index == 0)
+            {
+                txt += "\tpublic override void _Ready()\n"
+                     + "\t{\n"
+                     + "\t\tbase._Ready();\n"
+                     + "\t}\n"
+                     +"}";
+            }
+            txt += GetSignals(code);
+            File.WriteAllText($"{dir}{nm}.cs", txt);
         }
     }
 
@@ -100,6 +122,22 @@ public abstract class CompilerHelper
             return input.Substring(0, lastDotIndex);
         }
         return input;
+    }
+    
+    protected static string GetSignals(string code)
+    {
+        var result = "";
+        var patternSignals = Regex.Match(code, "@signal\s+[^\s]+");
+        while (patternSignals.Success)
+        {
+            var name = patternSignals.Groups[1].Value;
+            result += $"\tpublic override void {name}()\n"
+                     + "\t{\n"
+                     + "\t\tbase." + name + "();\n"
+                     + "\t}\n";
+            patternSignals = patternSignals.NextMatch();
+        }
+        return result;
     }
 }
 
