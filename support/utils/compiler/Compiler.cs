@@ -127,15 +127,20 @@ public abstract class CompilerHelper
     protected static string GetSignals(string code)
     {
         var result = "";
-        var patternSignals = Regex.Match(code, "@signal\s+[^\s]+");
-        while (patternSignals.Success)
+        string pattern = @"/\*\* @signal \*\*/[\s\S]*?function\s+(\w+)\(([^)]*)\)";
+        MatchCollection matches = Regex.Matches(text, pattern);
+
+        foreach (Match match in matches)
         {
-            var name = patternSignals.Groups[1].Value;
-            result += $"\tpublic override void {name}()\n"
-                     + "\t{\n"
-                     + "\t\tbase." + name + "();\n"
-                     + "\t}\n";
-            patternSignals = patternSignals.NextMatch();
+            string functionName = match.Groups[1].Value;
+            string[] parameters = match.Groups[2].Value.Split(", ");
+            var allParameters = (parameters.Length < 1 ? "" : "object " + string.Join(", object ", parameters))
+                .Replace("$", "");
+
+            result += "\t\tpublic override void " + functionName + "(" + allParameters + ")\n"
+                     + "\t\t{\n"
+                     + "\t\t\tbase._" + functionName + "(" + string.Join(", ", parameters).Replace("$", "") + ");\n"
+                     + "\t\t}\n";
         }
         return result;
     }
