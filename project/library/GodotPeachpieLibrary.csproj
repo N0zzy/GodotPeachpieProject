@@ -17,13 +17,13 @@
     </PropertyGroup>
     
     <ItemGroup>
-        <PackageReference Include="GodotSharp" Version="4.3.0-beta.2" />
+        <PackageReference Include="GodotSharp" Version="4.3.0-rc.1" />
     </ItemGroup>
     <ItemGroup>
         <Compile Include="**/*.php" />
     </ItemGroup>
     <Target Name="AfterBuild" AfterTargets="Build">
-        <Message Text="Выполняется перед сборкой..." Importance="high" />
+        <Message Text="Run dotnet pack..." Importance="high" />
         <Exec Command="dotnet pack --configuration Debug --output $(PackageOutDir)" />
     </Target>
 </Project>
