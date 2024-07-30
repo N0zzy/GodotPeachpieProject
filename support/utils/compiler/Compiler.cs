@@ -45,13 +45,13 @@ public abstract class CompilerHelper
     
     protected static void GenerateUx(string name)
     {
-        string[] uxScenes = Directory.GetFiles(
+        string[] uxs = Directory.GetFiles(
             LibraryPath + "src/" + name, "Ux*.php", SearchOption.AllDirectories
         );
         
-        foreach (var scene in uxScenes)
+        foreach (var scene in uxs)
         {
-            var p = scene.Split("Scene")[1];
+            var p = scene.Split(name)[1];
             var d = Path.GetDirectoryName(p)!.Substring(1);
             d = d.Length > 0 ? $"/{d}" : d;
             var s = p
