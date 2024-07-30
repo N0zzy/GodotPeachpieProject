@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace Compiler;
 
@@ -9,9 +11,11 @@ using PhpieSdk.Library;
 public class Compiler: CompilerHelper
 {
 
-    private static string OutPath = "project/";
+    protected static string OutPath = "project/";
     
-    private static string LibsPath = "support/utils/compiler/bin/Debug/net7.0";
+    protected static string LibsPath = "support/utils/compiler/bin/Debug/net7.0";
+    
+    public static readonly string PrefixPhpFiles = "Ux";
     
 
     public static void Main( string[] args )
@@ -19,8 +23,17 @@ public class Compiler: CompilerHelper
         ProjectPath = GetProjectPath();
         ApplicationPath = $"{ProjectPath}project/application/";
         LibraryPath = $"{ProjectPath}project/library/";
-        GenerateUxScenes();
-        
+
+        var dirs = new string[]
+        {
+            "Scene", "Gui"
+        };
+        var index = 0;
+        foreach (var dir in  dirs)
+        {
+            GenerateUx(dir, index);
+			index++;
+        }
         new PhpieSdkRunner().Run( 
             ProjectPath + OutPath, 
             ProjectPath + LibsPath
@@ -43,40 +56,45 @@ public abstract class CompilerHelper
         return currentPath.Split("support")[0].Replace("\\", "/");
     }
     
-    protected static void GenerateUxScenes()
+    protected static void GenerateUx(string name, int index)
     {
-        string[] uxScenes = Directory.GetFiles(
-            LibraryPath + "src/Scene", "Ux*.php", SearchOption.AllDirectories
+        string[] uxs = Directory.GetFiles(
+            LibraryPath + "src/" + name, "Ux*.php", SearchOption.AllDirectories
         );
         
-        foreach (var scene in uxScenes)
+        foreach (var ux in uxs)
         {
-            var p = scene.Split("Scene")[1];
+            var p = ux.Split(name)[1];
             var d = Path.GetDirectoryName(p)!.Substring(1);
             d = d.Length > 0 ? $"/{d}" : d;
             var s = p
                 .Replace("\\", ".")
                 .Replace("/", ".")
-                .Replace("Ux", "")
+                .Replace(Compiler.PrefixPhpFiles, "")
                 .Replace(".php", "");
             var ns = RemoveLastSegment(s);
             var nm = GetLastSegment(s);
-
-            var dir = ApplicationPath + $"scene{d}/";
+            var sn = name.ToLower();
+            var dir = ApplicationPath + $"{sn}{d}/";
             if( !Directory.Exists( dir )){
                 Directory.CreateDirectory( dir );
+            }            
+            var txt = $"using GodotPeachpie.{name}{ns};\n" +
+                      $"using Godot;\n" +
+                      $"[Tool]\n" +
+                      $"public partial class {nm} : {Compiler.PrefixPhpFiles}{nm}\n" +  
+                      "{\n";
+            var code = File.ReadAllText(ux);
+            if(index == 0)
+            {
+                txt += "\tpublic override void _Ready()\n"
+                     + "\t{\n"
+                     + "\t\tbase._Ready();\n"
+                     + "\t}\n";
             }
-            File.WriteAllText($"{dir}{nm}.cs", 
-                $"using GodotPeachpie.Scene{ns};\n" +
-                $"using Godot;\n" +
-                $"public partial class {nm} : Ux{nm}\n" +  
-                "{\n"
-                + "\tpublic override void _Ready()\n"
-                + "\t{\n"
-                + "\t\tbase._Ready();\n"
-                + "\t}\n"
-                +"}"
-            );
+            txt += GetSignals(code);
+            txt += "}";
+            File.WriteAllText($"{dir}{nm}.cs", txt);
         }
     }
 
@@ -98,6 +116,29 @@ public abstract class CompilerHelper
             return input.Substring(0, lastDotIndex);
         }
         return input;
+    }
+    
+    protected static string GetSignals(string code)
+    {
+        var result = "";
+        string pattern = @"/\*\*\s*\*\s*@signal\s*\*/\s*public function\s+(\w+)\(([^)]*)\)";
+        MatchCollection matches = Regex.Matches(code, pattern);
+
+        foreach (Match match in matches)
+        {
+            string functionName = match.Groups[1].Value;
+            string[] parameters = Regex.Matches(match.Groups[2].Value, @"\$([\w_]+)")
+                                       .Cast<Match>()
+                                       .Select(m => m.Groups[1].Value)
+                                       .ToArray();
+            var allParameters = (parameters.Length < 1   ? "" : "object " + string.Join(", object ", parameters))
+                .Replace("$", "");
+            result += "\tpublic override void " + functionName + "(" + allParameters + ")\n"
+                      + "\t{\n"
+                      + "\t\tbase." + functionName + "(" + string.Join(", ", parameters).Replace("$", "") + ");\n"
+                      + "\t}\n";
+        }
+        return result;
     }
 }
 
