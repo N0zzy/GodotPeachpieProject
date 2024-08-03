@@ -4,7 +4,7 @@ namespace GodotPeachpie\Gui;
 use Godot\Button; 
 use Godot\TextEdit; 
 use Godot\GD; 
-use GPL\UiNode;
+use GPL\UlNode;
 
 class UxButtonIdTest extends Button 
 {
@@ -14,9 +14,9 @@ class UxButtonIdTest extends Button
     public function makeTextEdit() 
     {
         //example 1
-        $this->textEdit1 ??= UiNode::Get($this, "/root/Main/TextEdit");
+        $this->textEdit1 ??= UlNode::Get($this, "/root/Main/TextEdit");
         //example 2
-        $this->textEdit2 ??= UiNode::Get($this, "../TextEdit");     
+        $this->textEdit2 ??= UlNode::Get($this, "../TextEdit");     
     }
     
     /**

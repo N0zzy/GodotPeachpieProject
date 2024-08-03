@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2848a9e-420e-406e-80ae-97f26ddfae3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/support/library/GPL.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/support/library/Service/UiBaseNode.cs" afterDir="false" />
+    <list default="true" id="e2848a9e-420e-406e-80ae-97f26ddfae3d" name="Changes" comment="GPL-library, examples TextEdit, support class UiNode">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Directory.Build.props" beforeDir="false" afterPath="$PROJECT_DIR$/Directory.Build.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/application/GodotPeachpieApplication.sln" beforeDir="false" afterPath="$PROJECT_DIR$/project/application/GodotPeachpieApplication.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/library/GodotPeachpieLibrary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/project/library/GodotPeachpieLibrary.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/library/src/Gui/UxButtonIdTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/library/src/Gui/UxButtonIdTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support/utils/compiler/Compiler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/support/utils/compiler/Compiler.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support/library/UiNode.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/support/library/Service/UiBaseNode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Godot4/GodotPeachpie/GodotPeachpieProject/support/library/UiNode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/support/library/UiNode.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2ieYasdU4Eb5KQYby8mt8UZarK8" />
@@ -61,6 +56,7 @@
       <workItem from="1722703754695" duration="25000" />
       <workItem from="1722703784194" duration="6000" />
       <workItem from="1722704123365" duration="4000" />
+      <workItem from="1722707346313" duration="1133000" />
     </task>
     <task id="LOCAL-00001" summary="props, signal, example btn">
       <created>1722342858563</created>
@@ -125,13 +121,28 @@
       <option name="project" value="LOCAL" />
       <updated>1722345297296</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="GPL-library, examples TextEdit, support class UiNode">
+      <created>1722707536322</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722707536322</updated>
+    </task>
+    <task id="LOCAL-00011" summary="GPL-library, examples TextEdit, support class UiNode">
+      <created>1722707875164</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722707875164</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="props, signal, example btn" />
     <MESSAGE value="img-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="img-2" />
+    <MESSAGE value="GPL-library, examples TextEdit, support class UiNode" />
+    <option name="LAST_COMMIT_MESSAGE" value="GPL-library, examples TextEdit, support class UiNode" />
   </component>
 </project>
