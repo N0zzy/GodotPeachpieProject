@@ -8,3 +8,5 @@ pid
 support/ide/*.exe
 support/utils/compiler/.sdkfiles
 support/ide/GodotSharp
+support/library/bin
+support/library/obj

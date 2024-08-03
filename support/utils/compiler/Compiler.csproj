@@ -6,6 +6,6 @@
     
     <ItemGroup>
         <PackageReference Include="GodotSharp" Version="$(GodotBuildVersion)" />
-        <PackageReference Include="PhpieSdk.Library" Version="1.1.2" />
+        <PackageReference Include="PhpieSdk.Library" Version="$(PhpieSdkLibraryVersion)" />
     </ItemGroup>
 </Project>

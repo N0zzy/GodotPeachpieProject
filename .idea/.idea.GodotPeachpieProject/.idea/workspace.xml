@@ -5,22 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2848a9e-420e-406e-80ae-97f26ddfae3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.screenshots/img-1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.screenshots/img-2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Directory.Build.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/library/Directory.Build.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/support/utils/compiler/Directory.Build.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/support/library/GPL.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/support/library/Service/UiBaseNode.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/application/GodotPeachpieApplication.csproj.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Directory.Build.props" beforeDir="false" afterPath="$PROJECT_DIR$/Directory.Build.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/application/GodotPeachpieApplication.sln" beforeDir="false" afterPath="$PROJECT_DIR$/project/application/GodotPeachpieApplication.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/library/GodotPeachpieLibrary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/project/library/GodotPeachpieLibrary.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support/utils/compiler/.sdkfiles" beforeDir="false" afterPath="$PROJECT_DIR$/support/utils/compiler/.sdkfiles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/library/src/Gui/UxButtonIdTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/library/src/Gui/UxButtonIdTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/support/utils/compiler/Compiler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/support/utils/compiler/Compiler.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/support/library/Service/UiBaseNode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/support/library/UiNode.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2ieYasdU4Eb5KQYby8mt8UZarK8" />
   <component name="ProjectViewState">
@@ -52,7 +53,14 @@
       <updated>1719852579709</updated>
       <workItem from="1719852580962" duration="61000" />
       <workItem from="1722343256082" duration="199000" />
-      <workItem from="1722343568900" duration="1126000" />
+      <workItem from="1722343568900" duration="2492000" />
+      <workItem from="1722678280468" duration="655000" />
+      <workItem from="1722681549304" duration="42000" />
+      <workItem from="1722702331915" duration="483000" />
+      <workItem from="1722703631878" duration="6000" />
+      <workItem from="1722703754695" duration="25000" />
+      <workItem from="1722703784194" duration="6000" />
+      <workItem from="1722704123365" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="props, signal, example btn">
       <created>1722342858563</created>
@@ -75,12 +83,55 @@
       <option name="project" value="LOCAL" />
       <updated>1722343365554</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="props, signal, example btn">
+      <created>1722344729225</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722344729225</updated>
+    </task>
+    <task id="LOCAL-00005" summary="props, signal, example btn">
+      <created>1722344788786</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722344788786</updated>
+    </task>
+    <task id="LOCAL-00006" summary="props, signal, example btn">
+      <created>1722344948864</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722344948864</updated>
+    </task>
+    <task id="LOCAL-00007" summary="props, signal, example btn">
+      <created>1722344973387</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722344973387</updated>
+    </task>
+    <task id="LOCAL-00008" summary="img-2">
+      <created>1722345109354</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722345109354</updated>
+    </task>
+    <task id="LOCAL-00009" summary="img-2">
+      <created>1722345297296</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722345297296</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="props, signal, example btn" />
-    <option name="LAST_COMMIT_MESSAGE" value="props, signal, example btn" />
+    <MESSAGE value="img-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="img-2" />
   </component>
 </project>

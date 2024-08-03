@@ -18,6 +18,7 @@
     
     <ItemGroup>
         <PackageReference Include="GodotSharp" Version="$(GodotBuildVersion)" />
+        <ProjectReference Include="..\..\support\library\GPL.csproj" />
     </ItemGroup>
     <ItemGroup>
         <Compile Include="**/*.php" />

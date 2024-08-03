@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <OutputType>Library</OutputType>
+        <RootNamespace>GPL</RootNamespace>
+        <AssemblyName>GPL</AssemblyName>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="GodotSharp" Version="4.3.0-rc.1" />
+    </ItemGroup>
+</Project>
