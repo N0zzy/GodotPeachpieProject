@@ -1,6 +1,4 @@
-﻿using GPL.Service;
-
-namespace GPL;
+﻿namespace GPL;
 
 using Godot;
 
