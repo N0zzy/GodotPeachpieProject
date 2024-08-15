@@ -1,5 +1,6 @@
 .dev
 project/.sdk
+project/application/.godot
 project/library/bin
 project/library/obj
 support/utils/compiler/bin

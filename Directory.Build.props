@@ -1,7 +1,7 @@
 ﻿<Project>
     <PropertyGroup>
-        <GodotVersion>4.3-rc1</GodotVersion>
-        <GodotBuildVersion>4.3.0-rc.1</GodotBuildVersion>
+        <GodotVersion>4.3-stable</GodotVersion>
+        <GodotBuildVersion>4.3.0</GodotBuildVersion>
         <PhpieSdkLibraryVersion>1.1.2</PhpieSdkLibraryVersion>
     </PropertyGroup>
 </Project>

@@ -7,6 +7,8 @@
     </PropertyGroup>
     
     <ItemGroup>
-        <PackageReference Include="GodotSharp" Version="4.3.0-rc.1" />
+        <PackageReference Include="GodotSharp" Version="4.3.0" />
+        <PackageReference Include="Peachpie.Runtime" Version="1.2.0-r17054" />
+        <PackageReference Include="Peachpie.Library" Version="1.2.0-r17054" />
     </ItemGroup>
 </Project>

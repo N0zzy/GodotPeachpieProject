@@ -4,18 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2848a9e-420e-406e-80ae-97f26ddfae3d" name="Changes" comment="img-3">
+    <list default="true" id="e2848a9e-420e-406e-80ae-97f26ddfae3d" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/support/library/UlScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/shelf/Uncommitted_changes_before_Update_at_30_07_2024_18_13_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/shelf/Uncommitted_changes_before_Update_at_30_07_2024_18_13__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GodotPeachpieProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/library/src/Gui/UxButtonIdTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/library/src/Gui/UxButtonIdTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/support/library/UiNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/support/library/UlNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/support/library/UlNode.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/main" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://E:/Godot4/GodotPeachpie/GodotPeachpieProject/support/library/UiNode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/support/library/UlNode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/support/library/UlScene.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2ieYasdU4Eb5KQYby8mt8UZarK8" />
   <component name="ProjectViewState">
@@ -55,7 +65,9 @@
       <workItem from="1722703754695" duration="25000" />
       <workItem from="1722703784194" duration="6000" />
       <workItem from="1722704123365" duration="4000" />
-      <workItem from="1722707346313" duration="1437000" />
+      <workItem from="1722707346313" duration="1820000" />
+      <workItem from="1723132723128" duration="339000" />
+      <workItem from="1723133830777" duration="104000" />
     </task>
     <task id="LOCAL-00001" summary="props, signal, example btn">
       <created>1722342858563</created>
@@ -148,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722708873051</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="img-3">
+      <created>1722709069900</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722709069900</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
